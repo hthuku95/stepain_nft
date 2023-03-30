@@ -1,0 +1,23 @@
+project:
+  name: STEPAIN_NFT
+  version: 0.1.0
+github:
+  token: ${GITHUB_TOKEN}
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.8.1
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.8.1"
+dotenv: .env
+networks:
+  bsc-test:
+    verify: True
+  bsc-main:
+    verify: True
+  goerli:
+    verify: True
+  development:
+    verify: False
+wallets:
+  from_key: ${PRIVATE_KEY}
