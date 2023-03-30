@@ -42,3 +42,5 @@ git clone https://github.com/hthuku95/stepain_nft.git
 ```
 brownie run scripts/deploy.py --network <network_name>
 ```
+
+Interact with the contract on [Bscscan](https://testnet.bscscan.com/address/0xccd60e519b2dfc80e807d0bb4efebc998a0bb797)
